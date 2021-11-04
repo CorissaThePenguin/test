@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.6.24/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.0","target":"arcade","targetVersion":"1.6.24"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.6.24/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.6.24","repo":"corissathepenguin/test"}
 // total=1141380 new=5.65% cached=88.72% other=5.62%
 (function (ectx) {
 'use strict';
@@ -387,7 +387,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P16617(s) {
+function _main___P16659(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -751,13 +751,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P16617.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P16617.continuations = [  ]
+_main___P16659.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P16659.continuations = [  ]
 
-function _main___P16617_mk(s) {
+function _main___P16659_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P16617, depth: s.depth + 1,
+        parent: s, fn: _main___P16659, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -38835,5 +38835,5 @@ const sprites_BaseSpriteSayRenderer__C2024_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["mySprite___3842"])
 
-return _main___P16617
+return _main___P16659
 })
